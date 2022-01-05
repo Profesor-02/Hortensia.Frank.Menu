@@ -53,7 +53,7 @@ a{
     background-position: right;
     border-radius: 10px;
     border-width: 3px;
-    border-color: black;
+    border-color: rgb(0, 0, 0);
     border-style: solid;
     margin: 3px;
     -webkit-animation: Animation 100s ease infinite;
@@ -161,7 +161,8 @@ li.sub-banner1:hover li.cont{
 .categTitulo{
     font-family: 'Waterfall', cursive;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 90px;
+    color: rgb(33, 84, 87); /* blanco con borde negro*/
     /*background-color: white;
     border-radius: 10px;
     border-style: solid;
@@ -171,7 +172,7 @@ li.sub-banner1:hover li.cont{
 .categSubTitulos{
     font-family: 'Dancing Script', cursive;;
     /*font-family: Gobold;*/
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     /*background-color: white;
     border-radius: 10px;
