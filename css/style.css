@@ -15,7 +15,7 @@
 }
 body{
     background: rgb(228, 213, 198);
-    background: linear-gradient(90deg, rgb(206, 187, 168) 50%, rgb(53, 96, 107) 100%);
+    background: linear-gradient(90deg, rgb(206, 187, 168) 50%, rgb(44, 82, 92) 100%);
     padding:2px;
     background-size: 200% 200%;
 
@@ -68,7 +68,6 @@ a{
 .banner{
     background-position: center;
     background-size: auto;
-    border-radius: 40px;
     border-style: solid;
     border-color: black;
     margin: 40px;
@@ -78,6 +77,7 @@ a{
     padding-bottom: 60px;
     text-align: center;
     border-radius: 10px;
+    border-width: 2px;
 }
 
 /* Principal */
@@ -118,7 +118,7 @@ a{
 }
 /*---------Banner Burguer------------*/
 #banner1 a:hover{
-    background-color: rgb(162, 199, 221);
+    background-color: rgba(162, 199, 221, 0.644);
     border-radius: 10px;
     border-style: solid;
     border-width: 1px;
@@ -162,21 +162,21 @@ li.sub-banner1:hover li.cont{
     font-family: 'Waterfall', cursive;
     font-weight: bold;
     font-size: 70px;
-    background-color: white;
+    /*background-color: white;
     border-radius: 10px;
     border-style: solid;
     border-width: 1px;
-    padding: 2px;
+    padding: 2px;*/
 }
 .categSubTitulos{
-    font-family: 'Caveat', cursive;
-    font-family: Gobold;
-    font-size: 25px;
-    /*font-weight: normal;*/
-    background-color: white;
+    font-family: 'Dancing Script', cursive;;
+    /*font-family: Gobold;*/
+    font-size: 30px;
+    font-weight: bold;
+    /*background-color: white;
     border-radius: 10px;
     border-style: solid;
-    border-width: 2px;
+    border-width: 2px;*/
     padding-left: 2px;
     padding-right: 2px;
 }
