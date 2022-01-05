@@ -14,8 +14,8 @@
     100%{background-position:30% 20%}
 }
 body{
-    background: rgb(252,166,79);
-    background: linear-gradient(90deg, rgba(252,166,79,1) 50%, rgb(252, 103, 34) 100%);
+    background: rgb(228, 213, 198);
+    background: linear-gradient(90deg, rgb(206, 187, 168) 50%, rgb(53, 96, 107) 100%);
     padding:2px;
     background-size: 200% 200%;
 
@@ -35,16 +35,12 @@ body{
     -webkit-transform: scale(105%);
     transition: 1s;
 }
-
-.error{
-    color:red;
-    text-align: center;
-}
 ul{
 padding-left: 0%;
 }
 a{
     color: black;
+
 }
 .center {
     text-align: center;
@@ -65,33 +61,6 @@ a{
     animation: Animation 100s ease infinite;
 
 }
-
-.buscador{
-    background-color: white;
-    border-radius: 40px;
-    border-style: outset;
-    border-color: grey;
-    padding: 20px;
-    display: flex;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.lupa {
-    height: 30px;
-    margin: 3px;
-}
-
-.search-bar{
-    font-size: 19px;
-    border-radius: 40px;
-    padding: 10px;
-}
-
 
 a{
     text-decoration:none;
@@ -119,42 +88,6 @@ a{
     background-position: center;
     transition: 0.2s;
 }
-.backTit2{
-    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/pizza-bckgr.jpeg);
-    background-size: cover;    
-    background-position: center;
-    transition: 0.2s;
-}
-.backTit3{
-    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/ensaladas-bkgr.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 0.2s;
-}
-.backTit4{
-    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/pasta-bckgr.jpeg);
-    background-size: cover;    
-    background-position: center;
-    transition: 0.2s;
-}
-.backTit5{
-    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/cafe-bckgr.png);
-    background-size: cover;    
-    background-position: center;
-    transition: 0.2s;
-}
-.backTit6{
-    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/agregados.png);
-    background-size: cover;    
-    background-position: center;
-    transition: 0.2s;
-}
-.backTit7{
-    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/gaseosas-bkgr.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 0.2s;
-}
 
 
 .backTit1:hover{
@@ -165,66 +98,27 @@ a{
     transition: 0.2s;
 }
 
-.backTit2:hover{
-    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/pizza-bckgr.jpeg);
-    background-position: center;
-    background-size: cover;    
-    -webkit-transform: scale(101%);
-    transition: 0.2s;
-}
-
-.backTit3:hover{
-    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255,0.3)),url(../img/ensaladas-bkgr.jpg);
-    background-position: center;
-    background-size: cover;  
-    -webkit-transform: scale(101%);  
-    transition: 0.2s;
-}
-
-.backTit4:hover{
-    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/pasta-bckgr.jpeg);
-    background-position: center;
-    background-size: cover;   
-    -webkit-transform: scale(101%); 
-    transition: 0.2s;
-}
-
-.backTit5:hover{
-    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/cafe-bckgr.png);
-    background-position: center;
-    background-size: cover;  
-    -webkit-transform: scale(101%);  
-    transition: 0.2s;
-}
-
-.backTit6:hover{
-    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/agregados.png);
-    background-position: center;
-    background-size: cover;   
-    -webkit-transform: scale(101%); 
-    transition: 0.2s;
-}
-
-.backTit7:hover{
-    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/gaseosas-bkgr.jpg);
-    background-position: center;
-    background-size: cover;  
-    -webkit-transform: scale(101%);  
-    transition: 0.2s;
-}
 .precio{
-    text-align: right;
-    display:flex;
+    text-align: center;
+    display:block;
     align-items: flex-end;
-    margin-right:20%;
     font-size: 12px;
+    margin: 0,5%;
+    font-weight: bold;
 }
+.aclaracion{
+    text-align: center;
+    display:block;
+    align-items: flex-end;
+    font-size: 12px;
+    color: #444444;
+    margin: 1%;
+    font-weight: normal;
 
-
-
+}
 /*---------Banner Burguer------------*/
 #banner1 a:hover{
-    background-color: white;
+    background-color: rgb(162, 199, 221);
     border-radius: 10px;
     border-style: solid;
     border-width: 3px;
@@ -234,6 +128,7 @@ a{
 #banner1 ul ul{
     display:none;
     list-style: none;
+    font-weight: bold;
 }
 
 #banner1 ul:hover ul{
@@ -244,8 +139,8 @@ a{
 /* Sub Banner Despliegue Uno*/
 
 .sub-banner1{
-    text-align: left;
-    margin-left:5%;  
+    text-align: center;  
+    margin: 3%;
 }
 li.primer_banner li.sub-banner1 {
     display:none;
@@ -261,239 +156,6 @@ li.sub-banner1:hover li.cont{
     text-align: left;
 }
 
-/*---------Banner Pizzas------------*/
-#banner2 a:hover{
-    background-color: white;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 3px;
-    padding: 6px;
-}
-
-#banner2 ul ul{
-    display:none;
-    list-style: none;
-}
-
-#banner2 ul:hover ul{
-    display: block;
-    margin: 10px;
-}
-
-/* Sub Banner Despliegue Uno*/
-.sub-banner2{
-    text-align: left;
-    margin-left:5%;
-}
-
-li.segundo_banner li.sub-banner2 {
-    display:none;
-}
-li.segundo_banner:hover li.sub-banner2 {
-    display:block;
-}
-
-li.sub-banner2 li.cont{
-    display:none;
-}
-
-li.sub-banner2:hover li.cont{
-    display:block;
-    text-align: left;
-}
-/*---------Banner Ensaladas------------*/
-#banner3 a:hover{
-    background-color: white;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 3px;
-    padding: 6px;
-}
-
-#banner3 ul ul{
-    display:none;
-    list-style: none;
-}
-
-#banner3 ul:hover ul{
-    display: block;
-    margin: 10px;
-}
-
-/* Sub Banner Despliegue Uno*/
-.sub-banner3{
-    text-align: left;
-    margin-left:5%;
-}
-
-li.tercer_banner li.sub-banner3 {
-    display:none;
-}
-li.tercer_banner:hover li.sub-banner3 {
-    display:block;
-}
-
-li.sub-banner3 li.cont{
-    display:none;
-}
-
-li.sub-banner3:hover li.cont{
-    display:block;
-    text-align: left;
-}
-/*---------Banner Pastas------------*/
-#banner4 a:hover{
-    background-color: white;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 3px;
-    padding: 6px;
-}
-#banner4 ul ul{
-    display:none;
-    list-style: none;
-}
-
-#banner4 ul:hover ul{
-    display: block;
-    margin: 10px;
-}
-
-/* Sub Banner Despliegue Uno*/
-.sub-banner4{
-    text-align: left;
-    margin-left:5%;
-}
-
-li.cuatro_banner li.sub-banner4 {
-    display:none;
-}
-li.cuatro_banner:hover li.sub-banner4 {
-    display:block;
-}
-
-li.sub-banner4 li.cont{
-    display:none;
-}
-
-li.sub-banner4:hover li.cont{
-    display:block;
-    text-align: left;
-}
-/*---------Banner Cafetería------------*/
-#banner5 a:hover{
-    background-color: white;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 3px;
-    padding: 6px;
-}
-#banner5 ul ul{
-    display:none;
-    list-style: none;
-}
-
-#banner5 ul:hover ul{
-    display: block;
-    margin: 10px;
-}
-
-/* Sub Banner Despliegue Uno*/
-.sub-banner5{
-    text-align: left;
-    margin-left:5%;
-}
-
-li.quinto_banner li.sub-banner5 {
-    display:none;
-}
-li.quinto_banner:hover li.sub-banner5 {
-    display:block;
-}
-
-li.sub-banner5 li.cont{
-    display:none;
-}
-
-li.sub-banner5:hover li.cont{
-    display:block;
-    text-align: left;
-}
-/*---------Banner Agregados------------*/
-#banner6 a:hover{
-    background-color: white;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 3px;
-    padding: 6px;
-}
-#banner6 ul ul{
-    display:none;
-    list-style: none;
-}
-
-#banner6 ul:hover ul{
-    display: block;
-    margin: 10px;
-}
-
-/* Sub Banner Despliegue Uno*/
-.sub-banner6{
-    text-align: left;
-    margin-left:5%;
-}
-li.sexto_banner li.sub-banner6 {
-    display:none;
-}
-li.sexto_banner:hover li.sub-banner6 {
-    display:block;
-}
-li.sexto-banner5 li.cont{
-    display:none;
-}
-li.sub-banner6:hover li.cont{
-    display:block;
-    text-align: left;
-}
-/*---------Banner Bebidas------------*/
-#banner7 a:hover{
-    background-color: white;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 3px;
-    padding: 5px;
-}
-#banner7 ul ul{
-    display:none;
-    list-style: none;
-}
-
-#banner7 ul:hover ul{
-    display: block;
-    margin: 10px;
-}
-
-/* Sub Banner Despliegue Uno*/
-.sub-banner7{
-    text-align: left;
-    margin-left:5%;
-}
-
-li.septimo_banner li.sub-banner7 {
-    display:none;
-}
-li.septimo_banner:hover li.sub-banner7 {
-    display:block;
-}
-
-li.sub-banner7 li.cont{
-    display:none;
-}
-
-li.sub-banner7:hover li.cont{
-    display:block;
-    text-align: left;
-}
 /*---------Banner Juan------------*/
 /* CSS PARA POP UP ORDEN */
 
