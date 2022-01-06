@@ -32,7 +32,7 @@ body{
 
 .logoHF:hover{
     padding: 10px;
-    -webkit-transform: scale(105%);
+    -webkit-transform: scale(110%);
     transition: 1s;
 }
 ul{
