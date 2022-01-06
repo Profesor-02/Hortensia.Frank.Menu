@@ -25,12 +25,12 @@ body{
     
 }
 
-.logoFoodies{
+.logoHF{
     padding: 10px;
     transition: 1s;
 }
 
-.logoFoodies:hover{
+.logoHF:hover{
     padding: 10px;
     -webkit-transform: scale(105%);
     transition: 1s;
@@ -47,12 +47,12 @@ a{
   }
 .bannerTitulo{
     background: rgb(252,194,136);
-    background-image:url(../img/BackBanner.jpg) ,radial-gradient(circle, rgba(252,194,136,1) 0%, rgb(241, 76, 11) 120%);
+    background-image:url(../img/Fto\ local.png) ,radial-gradient(circle, rgb(220, 197, 192) 15%, rgb(172, 40, 46) 250%);
     background-blend-mode: multiply,darken;
-    background-size: 1950px;
+    background-size: 1200px;
     background-position: right;
     border-radius: 10px;
-    border-width: 3px;
+    border-width: 2px;
     border-color: rgb(0, 0, 0);
     border-style: solid;
     margin: 3px;
@@ -83,7 +83,7 @@ a{
 /* Principal */
 
 .backTit1{
-    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/hamburguesa-2028707.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/cafe\ 2.jpg);
     background-size: cover;
     background-position: center;
     transition: 0.2s;
@@ -91,7 +91,7 @@ a{
 
 
 .backTit1:hover, .backTit1:focus{
-    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/hamburguesa-2028707.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/cafe\ 2.jpg);
     background-position: center;
     background-size: cover;    
     -webkit-transform: scale(101%);
@@ -120,7 +120,7 @@ a{
 #banner1 a:hover, a:focus{
     background-color: rgba(162, 199, 221, 0.644);
     border-radius: 10px;
-    border-style: solid;
+    /*border-style: solid;*/
     border-width: 1px;
     padding: 6px;
     transition: 0.3s;
@@ -155,9 +155,6 @@ li.sub-banner1:hover li.cont, li.sub-banner1:focus{
     display:block;
     text-align: left;
 }
-
-
-
 .categTitulo{
     font-family: 'Waterfall', cursive;
     font-weight: bold;
@@ -170,7 +167,7 @@ li.sub-banner1:hover li.cont, li.sub-banner1:focus{
     padding: 2px;*/
 }
 .categSubTitulos{
-    font-family: 'Dancing Script', cursive;;
+    font-family: 'Dancing Script', cursive;
     /*font-family: Gobold;*/
     font-size: 40px;
     font-weight: bold;
