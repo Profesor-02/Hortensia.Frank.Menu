@@ -90,7 +90,7 @@ a{
 }
 
 
-.backTit1:hover, .backTit1:focus{
+.backTit1:hover, .backTit1:active{
     background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/hamburguesa-2028707.jpg);
     background-position: center;
     background-size: cover;    
@@ -117,7 +117,7 @@ a{
 
 }
 /*---------Banner Burguer------------*/
-#banner1 a:hover, a:focus{
+#banner1 a:hover, a:active{
     background-color: rgba(162, 199, 221, 0.644);
     border-radius: 10px;
     border-style: solid;
@@ -131,7 +131,7 @@ a{
     font-weight: bold;
 }
 
-#banner1 ul:hover ul, ul:focus ul{
+#banner1 ul:hover ul, ul:active ul{
     display: block;
     margin: 10px;
 }
@@ -145,7 +145,7 @@ a{
 li.primer_banner li.sub-banner1 {
     display:none;
 }
-li.primer_banner:hover li.sub-banner1, li.primer_banner:focus {
+li.primer_banner:hover li.sub-banner1, li.primer_banner:active {
     display:block;
 }
 li.sub-banner1 li.cont{
