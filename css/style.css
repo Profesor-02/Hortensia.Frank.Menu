@@ -158,13 +158,13 @@ a{
 
 
 .backTit6{
-    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/cafe\ 2.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Tartas.jpeg);
     background-size: cover;
     background-position: center;
     transition: 0.2s;
 }
 .backTit6:hover, .backTit6:focus{
-    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/cafe\ 2.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Tartas.jpeg);
     background-position: center;
     background-size: cover;    
     -webkit-transform: scale(101%);
@@ -309,4 +309,18 @@ li.sub-banner1:hover li.cont, li.sub-banner1:focus{
 	.form-register{
 		width: 95%;
 	}
+}
+/*       DATOS DE CONTACTO         */
+#info{
+    font-family: 'Waterfall', cursive;
+    font-size: 60px;
+    text-align: center;
+    margin:20px;
+    margin-top: 10px;
+}
+#iconito{
+    max-width: 8%;
+    max-height: 8%;
+    margin-left: 45%;
+    margin-top: 10px;
 }
