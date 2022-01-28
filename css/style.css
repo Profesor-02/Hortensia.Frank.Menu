@@ -53,9 +53,11 @@ a{
     background-position: right;
     border-radius: 10px;
     border-width: 2px;
+    /*
     border-color: rgb(0, 0, 0);
     border-style: solid;
     margin: 3px;
+    */
     -webkit-animation: Animation 100s ease infinite;
     -moz-animation: Animation 100s ease infinite;
     animation: Animation 100s ease infinite;
@@ -81,7 +83,7 @@ a{
 }
 
 /* Fotos de Banners */
-
+/* CAFE */
 .backTit1{
     background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Cafe.jpeg);
     background-size: cover;
@@ -95,8 +97,7 @@ a{
     -webkit-transform: scale(101%);
     transition: 0.2s;
 }
-
-
+/* DESAYUNO */
 .backTit2{
     background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Desayuno.jpeg);
     background-size: cover;
@@ -110,8 +111,7 @@ a{
     -webkit-transform: scale(101%);
     transition: 0.2s;
 }
-
-
+/* PASTELERIA */
 .backTit3{
     background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Pastelería.jpeg);
     background-size: cover;
@@ -125,8 +125,7 @@ a{
     -webkit-transform: scale(101%);
     transition: 0.2s;
 }
-
-
+/* TOSTADOS */
 .backTit4{
     background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/Banner\ tostados.png);
     background-size: cover;
@@ -140,8 +139,7 @@ a{
     -webkit-transform: scale(101%);
     transition: 0.2s;
 }
-
-
+/* BRUSCHETTAS */
 .backTit5{
     background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Bruschettas.jpeg);
     background-size: cover;
@@ -155,52 +153,50 @@ a{
     -webkit-transform: scale(101%);
     transition: 0.2s;
 }
-
-
+/* TARTAS */
 .backTit6{
-    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Tartas.jpeg);
+    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Tartas.jpg);
     background-size: cover;
     background-position: center;
     transition: 0.2s;
 }
 .backTit6:hover, .backTit6:focus{
-    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Tartas.jpeg);
+    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Tartas.jpg);
     background-position: center;
     background-size: cover;    
     -webkit-transform: scale(101%);
     transition: 0.2s;
 }
 
-
+/* PICADAS */
 .backTit7{
-    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/cafe\ 2.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Picadas.jpeg);
     background-size: cover;
     background-position: center;
     transition: 0.2s;
 }
 .backTit7:hover, .backTit7:focus{
-    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/cafe\ 2.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Picadas.jpeg);
     background-position: center;
     background-size: cover;    
     -webkit-transform: scale(101%);
     transition: 0.2s;
 }
-
+/* PIZZAS */
 .backTit8{
-    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/cafe\ 2.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Pizzas.jpeg);
     background-size: cover;
     background-position: center;
     transition: 0.2s;
 }
 .backTit8:hover, .backTit8:focus{
-    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/cafe\ 2.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Pizzas.jpeg);
     background-position: center;
     background-size: cover;    
     -webkit-transform: scale(101%);
     transition: 0.2s;
 }
-
-
+/* BEBIDAS */
 .backTit9{
     background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/Banner\ bebidas.jpeg);
     background-size: cover;
