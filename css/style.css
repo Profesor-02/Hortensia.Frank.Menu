@@ -309,14 +309,20 @@ li.sub-banner1:hover li.cont, li.sub-banner1:focus{
 /*       DATOS DE CONTACTO         */
 #info{
     font-family: 'Waterfall', cursive;
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
-    margin:20px;
-    margin-top: 10px;
+    margin:10px;
+    margin-top: -10px;
 }
 #iconito{
+    margin-top: -10px;
     max-width: 8%;
     max-height: 8%;
     margin-left: 45%;
     margin-top: 10px;
+}
+#easter{
+    font-family: 'Dancing Script', cursive;
+    font-size: 15px;
+    text-align: right;
 }
