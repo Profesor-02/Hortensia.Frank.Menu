@@ -157,13 +157,13 @@ a{
 
 
 .backTit6{
-    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Tartas.jpeg);
+    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/Banner_Tartitas.jpg);
     background-size: cover;
     background-position: center;
     transition: 0.2s; 
 }
 .backTit6:hover, .backTit6:focus{
-    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/Banner\ Tartas.jpeg);
+    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/Banner_Tartitas.jpg);
     background-position: center;
     background-size: cover;    
     -webkit-transform: scale(101%);
@@ -172,17 +172,18 @@ a{
 
 
 .backTit7{
-    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img\Banner\ Picadas.jpeg);
+    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3)),url(../img/Banner_Picadas.jpg);
     background-size: cover;
     background-position: center;
     transition: 0.2s;
 }
 .backTit7:hover, .backTit7:focus{
-    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img\Banner\ Picadas.jpeg);
+    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(../img/Banner_Picadas.jpg);
     background-position: center;
     background-size: cover;    
     -webkit-transform: scale(101%);
     transition: 0.2s;
+    
 }
 
 .backTit8{
