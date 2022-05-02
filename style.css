@@ -61,7 +61,6 @@ a{
     animation: Animation 100s ease infinite;
 
 }
-
 a{
     text-decoration:none;
 }
@@ -309,5 +308,11 @@ li.sub-banner1:hover li.cont, li.sub-banner1:focus{
 	.form-register{
 		width: 95%;
 	}
+}
+footer{
+    text-align: center;
+}
+#info{
+    font-size: 40px;
 }
 /*hola mate*/
